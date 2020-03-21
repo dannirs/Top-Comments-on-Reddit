@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  color:	white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #ff471a;
+  padding: 8px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+  border: none;
+  padding: 5px;
+}
+
+button:hover {background-color: whitesmoke}
+
+button:active {
+  background-color:whitesmoke;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#results-container {
+  display: flex;
+  flex-direction: column;
+  font-family: normal small verdana, arial, helvetica, sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.result-card {
+  text-decoration: none;
+  padding: 2px;
+  border: solid 1px #0079d3;
+  margin: 8px auto;
+  background-color: white;
+}
+
+#subreddit-form {
+  display:flex;
+  padding: 5px;
+}

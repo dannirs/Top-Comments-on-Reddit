@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Top Comments on Reddit",
+    "version": "0.1",
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": ["background.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "browser_action": {
+      "default_icon": "reddit.png",
+      "default_popup": "popup.html"
+    }
+  }
+  
+  
+  
